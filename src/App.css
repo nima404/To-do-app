@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive !important;
+}
+
+body {
+  background: rgb(251, 247, 244);
+  background: linear-gradient(84deg, rgba(251, 247, 244, 1) 50%, rgba(255, 251, 248, 1) 100%);
+}
+
+@media screen and (max-width: 480px) {
+  .btnStyles {
+    background: #dabe9a;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .addBtnStyle {
+    background: none;
+    border: none;
+    font-size: 35px;
+  }
+  
+  .alignStyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imputStyle {
+    border: none;
+    background: none;
+    padding: 5.4px;
+    border-bottom: 1px dashed black;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  .imputStyle:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed black;
+  }
+  
+  .returnParent {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 5vh;
+    width: 90%;
+  }
+  
+  .returnBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1vh;
+  }
+  
+  .parent {
+    margin-top: 8vh;
+  }
+  
+  .hrStyles {
+    border: none;
+    border-bottom: 1px dashed black;
+  }
+  
+  .returnFooter {
+    margin-top: 1vh;
+    font-size: 10px;
+  }
+  
+  .footerTag {
+    font-family: system-ui !important;
+    margin-top: 5px;
+  }
+  
+  .CreatStyle {
+    margin: 0 10px 0 10px;
+  }
+  
+  .inputChangeStyle {
+    border: none;
+    border-bottom: 1px solid #dabe9a;
+    padding: 5px 0 5px 0;
+  }
+  
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+  .btnStyles {
+    background: #dabe9a;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .addBtnStyle {
+    background: none;
+    border: none;
+    font-size: 35px;
+  }
+  
+  .alignStyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imputStyle {
+    border: none;
+    background: none;
+    padding: 5.4px;
+    border-bottom: 1px dashed black;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  .imputStyle:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed black;
+  }
+  
+  .returnParent {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 5vh;
+    width: 80%;
+  }
+  
+  .returnBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1vh;
+  }
+  
+  .parent {
+    margin-top: 8vh;
+  }
+  
+  .hrStyles {
+    border: none;
+    border-bottom: 1px dashed black;
+  }
+  
+  .returnFooter {
+    margin-top: 1vh;
+    font-size: 10px;
+  }
+  
+  .footerTag {
+    font-family: system-ui !important;
+    margin-top: 5px;
+  }
+  
+  .CreatStyle {
+    margin: 0 10px 0 10px;
+  }
+  
+  .inputChangeStyle {
+    border: none;
+    border-bottom: 1px solid #dabe9a;
+    padding: 5px 0 5px 0;
+  }
+  
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+  .btnStyles {
+    background: #dabe9a;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .addBtnStyle {
+    background: none;
+    border: none;
+    font-size: 35px;
+  }
+  
+  .alignStyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imputStyle {
+    border: none;
+    background: none;
+    padding: 5.4px;
+    border-bottom: 1px dashed black;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  .imputStyle:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed black;
+  }
+  
+  .returnParent {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 5vh;
+    width: 40%;
+  }
+  
+  .returnBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1vh;
+  }
+  
+  .parent {
+    margin-top: 8vh;
+  }
+  
+  .hrStyles {
+    border: none;
+    border-bottom: 1px dashed black;
+  }
+  
+  .returnFooter {
+    margin-top: 1vh;
+    font-size: 10px;
+  }
+  
+  .footerTag {
+    font-family: system-ui !important;
+    margin-top: 5px;
+  }
+  
+  .CreatStyle {
+    margin: 0 10px 0 10px;
+  }
+  
+  .inputChangeStyle {
+    border: none;
+    border-bottom: 1px solid #dabe9a;
+    padding: 5px 0 5px 0;
+  }
+  
+}
+
+@media screen and (min-width:1025px) and (max-width:1200px) {
+  .btnStyles {
+    background: #dabe9a;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .addBtnStyle {
+    background: none;
+    border: none;
+    font-size: 35px;
+  }
+
+  .alignStyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imputStyle {
+    border: none;
+    background: none;
+    padding: 5.4px;
+    border-bottom: 1px dashed black;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+
+  .imputStyle:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed black;
+  }
+
+  .returnParent {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 5vh;
+    width: 30%;
+  }
+
+  .returnBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1vh;
+  }
+
+  .parent {
+    margin-top: 8vh;
+  }
+
+  .hrStyles {
+    border: none;
+    border-bottom: 1px dashed black;
+  }
+
+  .returnFooter {
+    margin-top: 1vh;
+    font-size: 10px;
+  }
+
+  .footerTag {
+    font-family: system-ui !important;
+    margin-top: 5px;
+  }
+
+  .CreatStyle {
+    margin: 0 10px 0 10px;
+  }
+
+  .inputChangeStyle {
+    border: none;
+    border-bottom: 1px solid #dabe9a;
+    padding: 5px 0 5px 0;
+  }
+
+}
+
+@media screen and (min-width: 1201px) {
+  .btnStyles {
+    background: #dabe9a;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .addBtnStyle {
+    background: none;
+    border: none;
+    font-size: 35px;
+  }
+
+  .alignStyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imputStyle {
+    border: none;
+    background: none;
+    padding: 5.4px;
+    border-bottom: 1px dashed black;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+
+  .imputStyle:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed black;
+  }
+
+  .returnParent {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 5vh;
+    width: 30%;
+  }
+
+  .returnBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1vh;
+  }
+
+  .parent {
+    margin-top: 8vh;
+  }
+
+  .hrStyles {
+    border: none;
+    border-bottom: 1px dashed black;
+  }
+
+  .returnFooter {
+    margin-top: 1vh;
+    font-size: 10px;
+  }
+
+  .footerTag {
+    font-family: system-ui !important;
+    margin-top: 5px;
+  }
+
+  .CreatStyle {
+    margin: 0 10px 0 10px;
+  }
+
+  .inputChangeStyle {
+    border: none;
+    border-bottom: 1px solid #dabe9a;
+    padding: 5px 0 5px 0;
+  }
+
+}
