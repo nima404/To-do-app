@@ -11,6 +11,12 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+  .emptyTaskMassge{
+    text-align: center;
+    margin-top: 30vh;
+    font-size: 13px;
+    font-weight: bold;
+  }
   .btnStyles {
     background: #dabe9a;
     color: black;
@@ -96,6 +102,12 @@ body {
 }
 
 @media screen and (min-width:481px) and (max-width:768px) {
+  .emptyTaskMassge{
+    text-align: center;
+    margin-top: 30vh;
+    font-size: 13px;
+    font-weight: bold;
+  }
   .btnStyles {
     background: #dabe9a;
     color: black;
@@ -181,6 +193,12 @@ body {
 }
 
 @media screen and (min-width:769px) and (max-width:1024px) {
+  .emptyTaskMassge{
+    text-align: center;
+    margin-top: 30vh;
+    font-size: 13px;
+    font-weight: bold;
+  }
   .btnStyles {
     background: #dabe9a;
     color: black;
@@ -266,6 +284,12 @@ body {
 }
 
 @media screen and (min-width:1025px) and (max-width:1200px) {
+  .emptyTaskMassge{
+    text-align: center;
+    margin-top: 30vh;
+    font-size: 13px;
+    font-weight: bold;
+  }
   .btnStyles {
     background: #dabe9a;
     color: black;
@@ -351,6 +375,12 @@ body {
 }
 
 @media screen and (min-width: 1201px) {
+  .emptyTaskMassge{
+    text-align: center;
+    margin-top: 30vh;
+    font-size: 13px;
+    font-weight: bold;
+  }
   .btnStyles {
     background: #dabe9a;
     color: black;
